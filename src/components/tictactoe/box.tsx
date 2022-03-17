@@ -1,4 +1,4 @@
-import { SelfClickHandler, TicTacToeState } from "./tictactoe";
+import { SelfClickHandler, TicTacToeState } from ".";
 
 
 const Box = ({getBoxState = ()=> null, clickHandler = ()=> undefined}: TicTacToeState) => {

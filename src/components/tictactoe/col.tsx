@@ -1,5 +1,5 @@
 import Box from "./box"
-import { TicTacToeState } from "./tictactoe";
+import { TicTacToeState } from ".";
 
 const Col = ({clickHandler = () => () => undefined, ...props} : TicTacToeState ) => {
   return (
